@@ -119,7 +119,7 @@ section {
 }
 
 .aliceblue p {
-    color: black !important;
+    color: black;
 }
 
 .color-box .color-name {
