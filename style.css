@@ -1,0 +1,213 @@
+html {
+    background-color: #fff;
+}
+
+.darkslategray {
+    background-color: #2f4f4f;
+}
+
+.capepalliser {
+    background-color: #A3644B;
+}
+
+.aliceblue {
+    background-color: #f1faff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column; 
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #f1faff;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color:#2f4f4f;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6em;
+}
+
+.nav-content {
+    display: inherit;
+    flex-direction: inherit;
+    padding: 20px; 
+}
+
+.nav-logo {
+    width: 200px; 
+    color: white; 
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none; 
+    padding-right: 1.8em;
+    color: white;
+}
+
+.nav-menu a:hover {
+    color: #F1FAFF;
+    text-decoration: underline;
+    transition:all 0.1s ease-in;
+}
+
+header {
+    width: 100%;
+    padding: 35px;
+}
+
+section {
+    border: 2px solid #a3644b;
+    padding: 20px 35px; 
+    margin: 0 15px 30px 15px;
+    background-color: #f8f8f8;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.section-title {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.color-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+.color-box p {
+    text-align: center;
+    color: white; 
+    font-family: 'Noto Sans', sans-serif;
+    margin: 15px 10px 0 10px; 
+}
+
+.aliceblue p {
+    color: black !important;
+}
+
+.color-box .color-name {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 15px; 
+}
+
+.color-box .color-code {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.colors .aliceblue {
+    border: 1px solid black;
+}
+
+.aliceblue .color-name, .aliceblue .color-code {
+    color: black;
+}
+
+.fonts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #2F4F4F;
+    font-size: 1.6em;
+    margin-bottom: 0.7em;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fonts a {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #2F4F4F;
+}
+
+.fonts a:hover {
+    color: #A3644B;
+    transition: all 0.15s ease-in; 
+}
+
+.font-box {
+    background-color: white;
+    border: 2px solid black;
+    width: 45%;
+    height: auto; 
+    padding: 15px; 
+    flex-wrap:wrap;
+    margin-bottom: 15px;
+}
+
+.font-box p {
+    margin: 10px 0;
+}
+
+.noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.franklin-gothic {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.text-styles {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #2F4F4F;
+    margin-bottom: 15px;
+}
+
+.text-styles h1 {
+    margin-bottom: 15px;
+}
+
+.text-styles p {
+    margin-bottom: 6px;
+}
